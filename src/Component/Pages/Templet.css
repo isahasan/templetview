@@ -1,0 +1,47 @@
+.templet {
+  width: 25%;
+  margin: 2rem 1.5rem;
+  border: 1px solid #999;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.img_container {
+  background-color: #000;
+  opacity: 0.8;
+}
+.img_container:hover {
+  opacity: 10;
+}
+.templet_img {
+  width: 100%;
+  height: 10rem;
+  display: block;
+}
+.templet_title {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem 0;
+}
+.m-left {
+  margin-left: 1rem;
+}
+.templet_author {
+  display: block;
+}
+.templet_price {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.price {
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+}
+.Features {
+  font-size: 1rem;
+  color: #fff;
+  background-color: indigo;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.3rem;
+}

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Templetlist from "./Component/Pages/Templetlist";
+import Navbar from "./Component/NavBar/Navbar";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+import Home from "./Component/Pages/Home";
+import Contact from "./Component/Pages/Contact";
+import About from "./Component/Pages/About";
+import TempletReview from "./Component/Pages/TempletReview";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+        <Switch>
+          <Route exact path="/Templetlist" component={Templetlist} />
+          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Home" component={Home} />
+          <Route path="/Templetlist/:Id" component={TempletReview} />
+          <Redirect from="/" to="/Home" />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

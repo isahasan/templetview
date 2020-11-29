@@ -1,0 +1,12 @@
+.templets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 4rem auto;
+}
+.notice {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem 0;
+}
