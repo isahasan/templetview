@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/templetview/static/css/main.2d7b267b.chunk.css",
+    "main.js": "/templetview/static/js/main.51b24895.chunk.js",
+    "main.js.map": "/templetview/static/js/main.51b24895.chunk.js.map",
+    "runtime-main.js": "/templetview/static/js/runtime-main.ecd7a812.js",
+    "runtime-main.js.map": "/templetview/static/js/runtime-main.ecd7a812.js.map",
+    "static/js/2.e14b53e0.chunk.js": "/templetview/static/js/2.e14b53e0.chunk.js",
+    "static/js/2.e14b53e0.chunk.js.map": "/templetview/static/js/2.e14b53e0.chunk.js.map",
+    "index.html": "/templetview/index.html",
+    "static/css/main.2d7b267b.chunk.css.map": "/templetview/static/css/main.2d7b267b.chunk.css.map",
+    "static/js/2.e14b53e0.chunk.js.LICENSE.txt": "/templetview/static/js/2.e14b53e0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecd7a812.js",
+    "static/js/2.e14b53e0.chunk.js",
+    "static/css/main.2d7b267b.chunk.css",
+    "static/js/main.51b24895.chunk.js"
+  ]
+}
